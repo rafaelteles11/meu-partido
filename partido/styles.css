@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0044cc;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #ffc107;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 2.5rem;
+}
+
+.ideais-defendidos {
+    background-color: #f8c12c;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.ideais-defendidos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.ideais-defendidos ul {
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.ideais-defendidos ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.criminals {
+    background-color: #0044cc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.criminals h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.criminals-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.criminals-images img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.vote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vote h2 {
+    font-size: 2.5rem;
+    color: #f8c12c;
+}
+
+.vote-image img {
+    width: 200px;
+    height: auto;    
+}
+
+.vote-image img {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção original */
+}
+
+.acao-criminosos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.criminal-action-image img {
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
